@@ -520,5 +520,126 @@
 
 .footer-contact { 
   text-decoration: none;
+}
 
+@media(max-width: 1260px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .header-search {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  .main-promo__card {
+    max-width: calc(50% - 15px);
+  }
+
+  .categories-card {
+    max-width: calc(50% - 15px);
+  }
+
+  .benefits-card {
+    max-width: calc(50% - 15px);
+    margin-bottom: 15px;
+  }
+
+}
+
+@media(max-width: 992px) {
+  .container { 
+    max-width: 750px;
+  }
+
+  .main-slider__slide {
+    padding: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container { 
+    max-width: 560px;
+  }
+
+  .header  {
+    flex-wrap: wrap;
+  }
+
+  .header-search {
+    flex: 100%;
+    order: 5;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .main-promo__card {
+    max-width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .footer-text {
+    padding-left: 10px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  html, body{width:100%; height:100%; overflow-x:hidden}
+
+  .container {
+    max-width: 90%;
+  }
+  
+  .delivery-cards {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .categories-tabs {
+    overflow-x: scroll;
+  }
+
+  .categories-tab {
+    font-size: 15px;
+  }
+
+  .categories-card {
+    max-width: 100%;
+  }
+
+  .benefits-card {
+    max-width: 100%;
+  }
+
+  .footer-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-info__img img {
+    margin-right: 0;
+  }
+
+  .footer-text__el {
+    font-size: 14px;
+  }
+
+  .footer-contact {
+    margin-right: 15px;
+  }
+
+  .footer-contacts {
+    margin-top: 15px;
+    max-width: 30%;
+    margin: 0 auto;
+  }
 }
